@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.1 (33804) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 32</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <ellipse id="path-1" cx="30" cy="30" rx="30" ry="30"></ellipse>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="60" height="60" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-16" transform="translate(-1005.000000, -3949.000000)">
+            <g id="Group-40" transform="translate(915.000000, 3949.000000)">
+                <g id="Group-32" transform="translate(90.000000, 0.000000)">
+                    <path d="M35.20625,19.4499783 C34.174375,19.05919 32.278125,19 31.21875,19 C28.123125,19 26.840625,21.5202821 26.840625,24.5510776 L26.840625,26.5621914 L25,26.5621914 L25,30.5534788 L26.840625,30.5534788 L26.840625,41.5668491 L30.576875,41.5668491 L30.576875,30.5534788 L34.285625,30.5534788 L34.285625,26.5621914 L30.576875,26.5621914 L30.576875,24.1912295 C30.576875,23.2011427 32.13875,22.6906292 32.86375,22.6906292 C33.449375,22.6906292 34.090625,22.811027 34.648125,22.9912874 L35.20625,19.4499783" id="Imported-Layers-Copy-12" fill="#AFA376"></path>
+                    <use id="Oval-16-Copy-3" stroke="#AFA376" mask="url(#mask-2)" stroke-width="2.4" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

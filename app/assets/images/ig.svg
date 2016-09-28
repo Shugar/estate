@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.1 (33804) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 39</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <ellipse id="path-1" cx="30" cy="29.8695216" rx="30" ry="29.8695216"></ellipse>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="60" height="59.7390432" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-16" transform="translate(-1095.000000, -3949.000000)">
+            <g id="Group-40" transform="translate(915.000000, 3949.000000)">
+                <g id="Group-39" transform="translate(180.000000, 0.000000)">
+                    <use id="Oval-54-Copy-10" stroke="#AFA376" mask="url(#mask-2)" stroke-width="2.4" xlink:href="#path-1"></use>
+                    <g id="Page-1" transform="translate(18.750000, 18.367347)">
+                        <path d="M17.5,22.0408163 L5,22.0408163 C2.25,22.0408163 0,19.8367347 0,17.1428571 L0,4.89795918 C0,2.20408163 2.25,0 5,0 L17.5,0 C20.25,0 22.5,2.20408163 22.5,4.89795918 L22.5,17.1428571 C22.5,19.8367347 20.25,22.0408163 17.5,22.0408163 L17.5,22.0408163 Z" id="Stroke-1" stroke="#AFA376" stroke-width="1.5"></path>
+                        <path d="M11.458375,16.0771714 L11.025375,16.0771714 C8.275375,16.0771714 6.025375,13.8730898 6.025375,11.1792122 L6.025375,10.755049 C6.025375,8.06117143 8.275375,5.8570898 11.025375,5.8570898 L11.458375,5.8570898 C14.208375,5.8570898 16.458375,8.06117143 16.458375,10.755049 L16.458375,11.1792122 C16.458375,13.8730898 14.208375,16.0771714 11.458375,16.0771714 L11.458375,16.0771714 Z" id="Stroke-3" stroke="#AFA376" stroke-width="1.5"></path>
+                        <path d="M17.9328,5.85710204 L17.9328,5.85710204 C17.092925,5.85710204 16.411925,5.19012245 16.411925,4.36738776 L16.411925,4.36726531 C16.411925,3.54453061 17.092925,2.87755102 17.9328,2.87755102 L17.9328,2.87755102 C18.772675,2.87755102 19.45355,3.54453061 19.45355,4.36726531 L19.45355,4.36738776 C19.45355,5.19012245 18.772675,5.85710204 17.9328,5.85710204" id="Fill-5" fill="#AFA376"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

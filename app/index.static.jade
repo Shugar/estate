@@ -1,0 +1,182 @@
+doctype html
+head
+  meta(http-equiv="Content-Type" content="text/html; charset=utf-8")
+  title Sunroof
+  meta(name="viewport" content="width=device-width")
+  meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no")
+  link(rel="stylesheet" href="stylesheets/app.css")
+  link(rel="icon" href="images/favicon.png")
+
+  script(src="javascripts/vendor.js")
+  script(src="javascripts/app.js")
+
+  script.
+    require('scripts/initialize');
+
+body
+  .head
+    .container
+      .nav
+        .nav-item
+          a(href="tel:78005553535") +7 800 555-35-35
+          a(href="mailto:estate-dev@slack.com") estate-dev@slack.com
+
+        .nav-item
+          .language
+            | EN
+
+          .login
+            | ВОЙТИ
+            .login-icon
+
+          .rent
+            | СДАТЬ КВАРТИРУ
+
+
+      .logo
+        .logo-image
+        | ЭЛИТНАЯ НЕДВИЖИМОСТЬ
+
+      .advanced
+        .advanced-icon
+        | РАСШИРЕННЫЙ ПОИСК
+
+  .suggestions
+    .container
+      .title-component
+        | Лучшие предложения в Москве
+
+      .suggestions-list
+        .suggestions-item
+          .price
+            | 200 000
+            span ₽
+          .rooms
+            | 2 комнаты, 85м²
+          .image
+            img(src="../images/suggest-1.png")
+          .metro
+            .station
+              .station-icon
+              | Войковская
+
+            .color
+              img(src="../images/metro-green.svg")
+
+        .suggestions-item
+          .price
+            | 250 000
+            span ₽
+          .rooms
+            | 3 комнаты, 126м²
+          .image
+            img(src="../images/suggest-2.png")
+          .metro
+            .station
+              .station-icon
+              | Охотный ряд
+
+            .color
+              img(src="../images/metro-red.svg")
+
+        .suggestions-item
+          .price
+            | 350 000
+            span ₽
+          .rooms
+            | 5 комнаты, 236м²
+          .image
+            img(src="../images/suggest-3.png")
+          .metro
+            .station
+              .station-icon
+              | Выставочная
+
+            .color
+              img(src="../images/metro-blue.svg")
+
+      .suggestions-more
+        | СМОТРЕТЬ ВСЕ 234 ПРЕДЛОЖЕНИЯ
+
+  .how
+    .container
+      .title-component
+        | Как мы работаем
+
+      .how-item
+        .how-info
+          .title
+            | ПОИСК КВАРТИРЫ
+          .text
+            | Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.
+
+        .how-image
+          img(src="../images/how-1.png")
+
+      .how-item.how-itemMiddle
+        .how-image
+          img(src="../images/how-1.png")
+
+        .how-info
+          .title
+            | ПОИСК КЛИЕНТА
+          .text
+            | Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.
+
+      .how-item
+        .how-info
+          .title
+            | РАБОТА С ЗАЯВКАМИ
+          .text
+            | Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.
+
+        .how-image
+          img(src="../images/how-1.png")
+
+  .complex
+    .container
+      .title-component
+        | Элитные жилые комплексы
+
+      .complex-item
+        .complex-text
+          | Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.
+
+          .suggestions
+            | СМОТРЕТЬ ВСЕ ПРЕДЛОЖЕНИЯ
+
+        .complex-image
+          img(src="../images/complex.png")
+
+  .additional
+    .container
+      .title-component
+        | Дополнительные услуги
+
+      .additional-item
+        .text
+          | Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.
+        .image
+          img(src="../images/additional.png")
+
+  .footer
+    .container
+      .nav
+        a(href="/").nav-item ГЛАВНАЯ
+        a(href="/").nav-item СДАМ
+        a(href="/").nav-item ПРОДАМ
+        a(href="/").nav-item КУПЛЮ
+        a(href="/").nav-item СНИМУ
+        a(href="/").nav-item БЛОГ
+        a(href="/").nav-item ЧАСТЫЕ ВОПРОСЫ
+        a(href="/").nav-item СОГЛАШЕНИЕ О КОНФИДЕНЦИАЛЬНОСТИ
+
+      .info
+        .email-and-phone
+          a(href="tel:78005553535").phone +7 800 555-35-35
+          a(href="mailto:estate-dev@slack.com").email estate-dev@slack.com
+
+        .socials
+          a(href="vk.com").vk
+          a(href="facebook.com").fb
+          a(href="instagram.com").ig
