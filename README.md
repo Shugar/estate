@@ -17,13 +17,13 @@ npm install -g brunch
 # Step 2: Git clone
 To clone this repository you need:
 ```
-git clone https://github.com/Shugar/breezy breezy-mainpage
+git clone https://github.com/Shugar/estate estate
 ```
 
 # Step 3: Install project plugins
 To install npm & bower plugins you need put in terminal following commands:
 ```
-cd breezy-mainpage //go to our folder
+cd estate //our folder
 npm install
 bower install
 ```
@@ -45,5 +45,4 @@ To build app to production version (minified code and etc) —
 brunch build -p
 ```
 
-# danny-gonzales 
-
+# estate
