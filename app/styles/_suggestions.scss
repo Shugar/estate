@@ -1,7 +1,20 @@
 .suggestions {
+  .slick-list {
+    padding: 10px 0;
+    width: 100%;
+  }
 
+  .container {
+    max-width: 1150px;
+  }
+  
   .title-component {
     padding-bottom: 60px;
+
+    span {
+      color: #AFA376;
+      cursor: pointer;
+    }
   }
 
   &-more {
@@ -33,9 +46,11 @@
   }
 
   &-item {
-    width: 32%;
+    width: 32% !important;
+    margin: 0 0.5%;
     padding: 30px 0 18px 0;
 
+    outline: none;
     cursor: pointer;
     background: #FFFFFF;
     box-shadow: 0px 2px 4px 0px #9299A2;

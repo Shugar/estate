@@ -6,9 +6,12 @@ head
   meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no")
   link(rel="stylesheet" href="stylesheets/app.css")
   link(rel="icon" href="images/favicon.png")
+  link(rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css")
+
 
   script(src="javascripts/vendor.js")
   script(src="javascripts/app.js")
+
 
   script.
     require('scripts/initialize');
@@ -37,6 +40,47 @@ body
         .logo-image
         | ЭЛИТНАЯ НЕДВИЖИМОСТЬ
 
+      form.search
+        .filter
+          .rooms
+            .label
+              | Количество комнат
+            .rooms-inner
+              .rooms-item
+                input(id="checkbox-1" type="checkbox")
+                label(for="checkbox-1")
+                  | 1
+              .rooms-item
+                input(id="checkbox-2" type="checkbox")
+                label(for="checkbox-2")
+                  | 2
+              .rooms-item
+                input(id="checkbox-3" type="checkbox")
+                label(for="checkbox-3")
+                  | 3
+              .rooms-item
+                input(id="checkbox-4" type="checkbox")
+                label(for="checkbox-4")
+                  | 4
+              .rooms-item
+                input(id="checkbox-5" type="checkbox")
+                label(for="checkbox-5")
+                  | 5+
+          .price
+            .label
+              | Стоимость аренды в месяц
+            .price-inner
+              .price-item
+                | от
+                input(type="text" value="200 000")
+              .price-item
+                | до
+                input(type="text" value="300 000")
+
+        .button
+          | Найти
+
+
       .advanced
         .advanced-icon
         | РАСШИРЕННЫЙ ПОИСК
@@ -44,7 +88,8 @@ body
   .suggestions
     .container
       .title-component
-        | Лучшие предложения в Москве
+        | Лучшие предложения в
+        span  Москве
 
       .suggestions-list
         .suggestions-item
@@ -153,11 +198,28 @@ body
       .title-component
         | Дополнительные услуги
 
-      .additional-item
-        .text
-          | Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.
-        .image
-          img(src="./images/additional.png")
+      .additional-list
+        .additional-item
+          .title
+            | УПРАВЛЕНИЕ НЕДВИЖИМОСТЬЮ
+          .text
+            | Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.
+          .image
+            img(src="./images/additional.png")
+        .additional-item
+          .title
+            | УБОРКА
+          .text
+            | Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.
+          .image
+            img(src="./images/additional.png")
+        .additional-item
+          .title
+            | ПЕРЕЕЗД
+          .text
+            | Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.
+          .image
+            img(src="./images/additional.png")
 
   .footer
     .container
